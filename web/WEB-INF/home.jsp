@@ -12,5 +12,10 @@
 </head>
 <body>
     <h1>Admin Panel</h1>
+    <hr />
+    <a href="${pageContext.request.contextPath}/EmployeeNavController?flag=add">Add an Employee</a><br/>
+    <a href="${pageContext.request.contextPath}/EmployeeNavController?flag=list">Show Employees</a><br/>
+    <a href="${pageContext.request.contextPath}/EmployeeNavController?flag=find">Find an Employee</a><br/>
+    <a href="${pageContext.request.contextPath}/LoginAction?flag=logout">Log out</a><br/>
 </body>
 </html>

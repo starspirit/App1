@@ -12,7 +12,7 @@
 </head>
 <body>
     <h1>Admin Login</h1>
-    <form action="${pageContext.request.contextPath}/login.do?flag=login" method="post" >
+    <form action="${pageContext.request.contextPath}/LoginAction?flag=login" method="post" >
         <table>
             <tr><td>ID:</td><td><input type="text" name="id" /></td></tr>
             <tr><td>PW:</td><td><input type="password" name="pwd" /></td></tr>

@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletResponse;
  */
 public class LoginAction extends DispatchAction{
 
-
+    // 响应登陆请求
     public ActionForward login(ActionMapping mapping, ActionForm form, HttpServletRequest request, HttpServletResponse response) throws Exception {
 
         EmployeeForm employeeForm = (EmployeeForm) form;
@@ -30,7 +30,7 @@ public class LoginAction extends DispatchAction{
 
     }
 
-
+    // 响应注销请求
     public ActionForward logout(ActionMapping mapping, ActionForm form, HttpServletRequest request, HttpServletResponse response) throws Exception {
         return super.execute(mapping, form, request, response);
     }
